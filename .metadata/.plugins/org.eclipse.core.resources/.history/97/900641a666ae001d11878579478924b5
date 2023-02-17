@@ -1,0 +1,12 @@
+package com.example.demo.entities;
+
+import java.util.ArrayList;
+
+import com.example.demo.utility.Authority;
+
+public class User {
+	private long id;
+	private String username;
+	private String password;
+	private ArrayList<Authority> authorities;
+}
